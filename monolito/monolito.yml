@@ -19,3 +19,6 @@ spring:
     hibernate:
       ddl-auto: validate
     show-sql: true
+  sleuth:
+    sampler:
+      percentage: 0.1
